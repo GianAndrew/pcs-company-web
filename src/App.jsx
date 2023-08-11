@@ -5,18 +5,14 @@ import './App.css';
 import BaseLayout from './components/BaseLayout';
 
 const Home = lazy(() => import('./page/Home'));
-const Project = lazy(() => import('./page/Project'));
-const Team = lazy(() => import('./page/Team'));
-const Contact = lazy(() => import('./page/Contact'));
+const ErrorPage = lazy(() => import('./page/ErrorPage'));
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
 		<Route>
 			<Route element={<BaseLayout />}>
 				<Route index element={<Home />} />
-				<Route path='/team' element={<Team />} />
-				<Route path='/project' element={<Project />} />
-				<Route path='/contact' element={<Contact />} />
+				<Route path='*' element={<ErrorPage />} />
 			</Route>
 		</Route>
 	)
