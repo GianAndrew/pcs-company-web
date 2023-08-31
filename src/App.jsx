@@ -1,5 +1,5 @@
 import { lazy } from 'react';
-import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
+import { Navigate, Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
 import './App.css';
 
 import BaseLayout from './components/BaseLayout';
@@ -11,7 +11,7 @@ const router = createBrowserRouter(
 	createRoutesFromElements(
 		<Route element={<BaseLayout />}>
 			<Route path='/' element={<Home />} />
-			<Route path='/*' element={<ErrorPage />} />
+			<Route path='*' element={<Navigate to={'/'} />} />
 		</Route>
 	)
 );
