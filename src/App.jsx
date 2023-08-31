@@ -9,10 +9,8 @@ const ErrorPage = lazy(() => import('./page/ErrorPage'));
 
 const router = createBrowserRouter(
 	createRoutesFromElements(
-		<Route>
-			<Route element={<BaseLayout />}>
-				<Route path='/' element={<Home />} />
-			</Route>
+		<Route element={<BaseLayout />}>
+			<Route path='/' element={<Home />} />
 			<Route path='/*' element={<ErrorPage />} />
 		</Route>
 	)
