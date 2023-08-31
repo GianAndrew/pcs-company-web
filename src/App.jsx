@@ -1,5 +1,5 @@
 import { lazy } from 'react';
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 
 import BaseLayout from './components/BaseLayout';
@@ -9,14 +9,14 @@ const ErrorPage = lazy(() => import('./page/ErrorPage'));
 
 const App = () => {
 	return (
-		<HashRouter>
+		<BrowserRouter>
 			<Routes>
 				<Route element={<BaseLayout />}>
 					<Route path='/' element={<Home />} />
 				</Route>
-				<Route path='*' element={<ErrorPage />} />
+				<Route element={<ErrorPage />} />
 			</Routes>
-		</HashRouter>
+		</BrowserRouter>
 	);
 };
 
