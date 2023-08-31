@@ -10,7 +10,7 @@ const ErrorPage = lazy(() => import('./page/ErrorPage'));
 const App = () => {
 	return (
 		<BrowserRouter basename='/'>
-			<Routes></Routes>
+			<Routes>
 				<Route element={<BaseLayout />}>
 					<Route index element={<Home />} />
 					<Route path='/*' element={<ErrorPage />} />
