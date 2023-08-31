@@ -1,5 +1,5 @@
 import { lazy } from 'react';
-import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
+import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements, createHashRouter } from 'react-router-dom';
 import './App.css';
 
 import BaseLayout from './components/BaseLayout';
@@ -7,7 +7,7 @@ import BaseLayout from './components/BaseLayout';
 const Home = lazy(() => import('./page/Home'));
 const ErrorPage = lazy(() => import('./page/ErrorPage'));
 
-const router = createBrowserRouter(
+const router = createHashRouter(
 	createRoutesFromElements(
 		<Route>
 			<Route element={<BaseLayout />}>
