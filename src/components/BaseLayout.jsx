@@ -1,7 +1,7 @@
-import { Outlet } from 'react-router-dom';
-import Navbar from './Navbar';
-import Footer from './Footer';
 import { Suspense } from 'react';
+import { Outlet } from 'react-router-dom';
+import Footer from './Footer';
+import Navbar from './Navbar';
 
 const BaseLayout = () => {
 	return (

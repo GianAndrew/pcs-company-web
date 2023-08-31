@@ -1,6 +1,6 @@
-import React from 'react';
+import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLocationDot, faPhone, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import React from 'react';
 
 const ContactSection = () => {
 	return (

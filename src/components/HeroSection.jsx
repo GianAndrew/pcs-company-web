@@ -1,11 +1,11 @@
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { twMerge as cn } from 'tailwind-merge';
 import CodeAltYellow from '../assets/home_code_alt_yellow.svg';
 import CodeSvg from '../assets/home_code_logo.svg';
 import CodeSvgAlt from '../assets/home_code_logo_alt.svg';
 import HatSvg from '../assets/home_hat_logo.svg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 const HeroSection = () => {
 	return (

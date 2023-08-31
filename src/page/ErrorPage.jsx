@@ -1,8 +1,8 @@
-import React from 'react';
-import WebLogo from '../assets/web_logo.svg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import WebLogo from '../assets/web_logo.svg';
 
 const ErrorPage = () => {
 	const navigate = useNavigate();

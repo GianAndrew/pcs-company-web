@@ -1,9 +1,9 @@
-import React from 'react';
-import AxieBuddyImage from '../assets/axie_buddy_images.svg';
-import AxieBuddyLogo from '../assets/axibuddylogo.png';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGooglePlay } from '@fortawesome/free-brands-svg-icons';
-import { faBook, faChartSimple, faScrewdriverWrench, faMagnifyingGlass, faFolder } from '@fortawesome/free-solid-svg-icons';
+import { faBook, faChartSimple, faFolder, faMagnifyingGlass, faScrewdriverWrench } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from 'react';
+import AxieBuddyLogo from '../assets/axibuddylogo.png';
+import AxieBuddyImage from '../assets/axie_buddy_images.svg';
 
 const features = [
 	{

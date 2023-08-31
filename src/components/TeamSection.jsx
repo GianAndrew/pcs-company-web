@@ -1,11 +1,11 @@
+import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { twMerge as cn } from 'tailwind-merge';
 import GianImg from '../assets/gian.jpg';
 import JamesImg from '../assets/jj.jpg';
 import LracImg from '../assets/lrac.jpg';
 import MauiImg from '../assets/maui.jpg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const teams = [
 	{
