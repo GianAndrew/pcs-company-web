@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/*"
+  to = "/src/page/ErrorPage.jsx"
+  status = 404
