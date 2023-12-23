@@ -1,4 +1,5 @@
 import { faEnvelope, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin, faFacebook, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
@@ -22,28 +23,34 @@ const ContactSection = () => {
 							</span>
 
 							<h2 className='mt-4 text-lg font-medium text-gray-800'>Email</h2>
-							<p className='mt-2 text-gray-500'>Our friendly team is here to help.</p>
-							<p className='mt-2 text-sky-500 dark:text-sky-400'>business.pixelcowboystudios@gmail.com</p>
+
+							<a href='studiospixelcowboy@gmail.com' target='_blank' rel='noreferrer' className='mt-2 text-sky-500 dark:text-sky-400'>
+								studiospixelcowboy@gmail.com
+							</a>
 						</div>
 
 						<div className='flex flex-col items-center justify-center text-center'>
 							<span className='inline-block p-3 text-sky-500 rounded-full bg-sky-100/80'>
-								<FontAwesomeIcon icon={faLocationDot} className='text-emerald-300 w-6 h-6' />
+								<FontAwesomeIcon icon={faFacebook} className='text-emerald-300 w-6 h-6' />
 							</span>
 
-							<h2 className='mt-4 text-lg font-medium text-gray-800'>Office</h2>
-							<p className='mt-2 text-gray-500'>Come say hello at our office HQ.</p>
-							<p className='mt-2 text-sky-500 dark:text-sky-400'>Malaria, Caloocan City</p>
+							<h2 className='mt-4 text-lg font-medium text-gray-800'>Facebook</h2>
+
+							<a href='https://www.facebook.com/PixelCowboyStudio' target='_blank' rel='noreferrer' className='mt-2 text-sky-500 dark:text-sky-400 hover:underline'>
+								Pixel Cowboy Studios
+							</a>
 						</div>
 
 						<div className='flex flex-col items-center justify-center text-center'>
 							<span className='inline-block p-3 text-sky-500 rounded-full bg-sky-100/80'>
-								<FontAwesomeIcon icon={faPhone} className='text-emerald-300 w-6 h-6' />
+								<FontAwesomeIcon icon={faXTwitter} className='text-emerald-300 w-6 h-6' />
 							</span>
 
-							<h2 className='mt-4 text-lg font-medium text-gray-800'>Phone</h2>
-							<p className='mt-2 text-gray-500'>Mon-Fri from 8am to 5pm.</p>
-							<p className='mt-2 text-sky-500 dark:text-sky-400'>(+63) 987654321</p>
+							<h2 className='mt-4 text-lg font-medium text-gray-800'>X / Twitter</h2>
+
+							<a href='https://twitter.com/teampixelcowboy' target='_blank' rel='noreferrer' className='mt-2 text-sky-500 dark:text-sky-400'>
+								@pixel_cowb66863
+							</a>
 						</div>
 					</div>
 				</div>

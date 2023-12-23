@@ -2,7 +2,7 @@ import { lazy } from 'react';
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
 import './App.css';
 
-import BaseLayout from './components/BaseLayout';
+import BaseLayout from './components/layouts/BaseLayout';
 
 const Home = lazy(() => import('./page/Home'));
 const ErrorPage = lazy(() => import('./page/ErrorPage'));

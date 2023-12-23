@@ -10,18 +10,18 @@ import HatSvg from '../assets/home_hat_logo.svg';
 const HeroSection = () => {
 	return (
 		<>
-			<section className={cn('h-[100dvh] flex flex-wrap w-full', 'lg:w-11/12 lg:mx-auto')} id='hero'>
+			<section className={cn('h-[100dvh]  flex flex-wrap w-full', 'lg:w-11/12 lg:mx-auto')} id='hero'>
 				<div className={cn('h-full w-full flex flex-col justify-center items-center', 'xl:w-1/2 xl:items-start')}>
 					<div className={cn('flex flex-col justify-center items-center relative', 'xl:hidden')}>
 						<img src={HatSvg} className='w-[25%] ' alt='HatImage' />
 					</div>
 
 					<p className={cn('block font-Poppins mb-2 font-medium text-4xl tracking-normal text-gray-700 lowercase', 'sm:text-5xl md:text-6xl')}>We are</p>
-					<p className={cn('font-PressStart text-center uppercase home-header tracking-wide text-5xl', 'sm:text-7xl md:text-8xl lg:text-[7rem] xl:text-start')}>
-						Pixel <br /> Cowboy <br /> <span className={cn('home-header-span text-5xl font-PressStart', 'sm:text-7xl md:text-8xl lg:text-[7rem]')}> Studio</span>
+					<p className={cn('font-PressStart text-center uppercase home-header tracking-wide text-5xl', 'sm:text-6xl md:text-7xl lg:text-[5rem] xl:text-start')}>
+						Pixel <br /> Cowboy <br /> <span className={cn('home-header-span text-5xl font-PressStart', 'sm:text-6xl md:text-7xl lg:text-[5rem]')}> Studio</span>
 					</p>
 					<p className={cn('w-5/6 text-center text-sm normal-case mb-6 text-gray-500', 'md:text-md md:w-4/6 xl:text-start')}>
-						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente quibusdam, facere est necessitatibus impedit qui.
+						We are an indie software development group from the Philippines crafting quality software since 2018.
 					</p>
 
 					<div className='flex flex-row space-x-2'>
@@ -35,16 +35,6 @@ const HeroSection = () => {
 						>
 							Get Started
 							<FontAwesomeIcon className='ml-2' icon={faChevronRight} />
-						</a>
-						<a
-							href='#about'
-							className={cn(
-								'font-semibold rounded-lg text-sm px-10 py-2.5 text-gray-900 bg-transparent border border-gray-300',
-								'hover:bg-green-600 hover:text-white hover:border-green-500',
-								'focus:outline-none focus:ring-4 focus:ring-yellow-300'
-							)}
-						>
-							See Products
 						</a>
 					</div>
 				</div>

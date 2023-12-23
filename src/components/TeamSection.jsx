@@ -14,39 +14,35 @@ const teams = [
 		title: 'Mobile Developer',
 		img: LracImg,
 		desc: 'At a assumenda quas cum earum ut itaque commodi saepe rem aspernatur quam natus quis nihil quod, hic explicabo doloribus magnam neque, exercitationem eius sunt!',
-		github: '#',
-		linkedin: '#',
-		facebook: '#',
+		github: 'https://github.com/ytpixelcowboy',
+		linkedin: 'https://www.linkedin.com/in/carl-jordee-palma-69423122a/?originalSubdomain=ph',
 	},
 	{
 		id: 2,
 		name: 'Gian Del Rosario',
-		title: 'Fullstack Developer',
+		title: 'Web App Developer',
 		img: GianImg,
 		desc: 'At a assumenda quas cum earum ut itaque commodi saepe rem aspernatur quam natus quis nihil quod, hic explicabo doloribus magnam neque, exercitationem eius sunt!',
-		github: '#',
+		github: 'https://github.com/GianAndrew',
 		linkedin: '#',
-		facebook: '#',
 	},
 	{
 		id: 3,
 		name: 'Maui Sierra',
-		title: 'Desktop Developer',
+		title: 'Software Engineer',
 		img: MauiImg,
 		desc: 'At a assumenda quas cum earum ut itaque commodi saepe rem aspernatur quam natus quis nihil quod, hic explicabo doloribus magnam neque, exercitationem eius sunt!',
-		github: '#',
-		linkedin: '#',
-		facebook: '#',
+		github: 'https://github.com/auimi',
+		linkedin: 'https://www.linkedin.com/in/maui-sierra-3b0516295/?originalSubdomain=ph',
 	},
 	{
 		id: 4,
 		name: 'James Paala',
-		title: 'Frontend Developer',
+		title: 'Project Assistant',
 		img: JamesImg,
 		desc: 'At a assumenda quas cum earum ut itaque commodi saepe rem aspernatur quam natus quis nihil quod, hic explicabo doloribus magnam neque, exercitationem eius sunt!',
 		github: '#',
 		linkedin: '#',
-		facebook: '#',
 	},
 ];
 
@@ -77,13 +73,10 @@ const TeamSection = () => {
 											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic iure tenetur debitis inventore pariatur voluptas vitae explicabo sunt tempora eius?
 										</p>
 										<div className='mt-3 flex gap-4 text-gray-400'>
-											<a href={team.facebook}>
-												<FontAwesomeIcon icon={faFacebook} className={cn('w-5 h-5 text-sky-300', 'hover:text-sky-600')} />
-											</a>
-											<a href={team.github}>
+											<a href={team.github} target='_blank' rel='noreferrer'>
 												<FontAwesomeIcon icon={faGithub} className={cn('w-5 h-5 text-sky-300', 'hover:text-sky-600')} />
 											</a>
-											<a href={team.linkedin}>
+											<a href={team.linkedin} target='_blank' rel='noreferrer'>
 												<FontAwesomeIcon icon={faLinkedin} className={cn('w-5 h-5 text-sky-300', 'hover:text-sky-600')} />
 											</a>
 										</div>
