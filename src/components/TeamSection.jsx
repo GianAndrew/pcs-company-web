@@ -66,12 +66,10 @@ const TeamSection = () => {
 									<div className='w-full h-60'>
 										<img src={team.img} className='w-full h-full object-cover object-center shadow-md rounded-xl' alt='' />
 									</div>
-									<div className='mt-4 sm:mt-0'>
+									<div className='mt-4 sm:mt-0 w-full'>
 										<h4 className='text-xl text-gray-900 font-semibold'>{team.name}</h4>
 										<p className='text-md text-sky-500'>{team.title}</p>
-										<p className='text-gray-500 text-sm leading-5 mt-2'>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic iure tenetur debitis inventore pariatur voluptas vitae explicabo sunt tempora eius?
-										</p>
+
 										<div className='mt-3 flex gap-4 text-gray-400'>
 											<a href={team.github} target='_blank' rel='noreferrer'>
 												<FontAwesomeIcon icon={faGithub} className={cn('w-5 h-5 text-sky-300', 'hover:text-sky-600')} />
