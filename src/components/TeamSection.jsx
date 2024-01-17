@@ -24,7 +24,7 @@ const teams = [
 		img: GianImg,
 		desc: 'At a assumenda quas cum earum ut itaque commodi saepe rem aspernatur quam natus quis nihil quod, hic explicabo doloribus magnam neque, exercitationem eius sunt!',
 		github: 'https://github.com/GianAndrew',
-		linkedin: '#',
+		linkedin: 'https://www.linkedin.com/in/gian-andrew-del-rosario-b85a332aa',
 	},
 	{
 		id: 3,
@@ -41,8 +41,8 @@ const teams = [
 		title: 'Project Assistant',
 		img: JamesImg,
 		desc: 'At a assumenda quas cum earum ut itaque commodi saepe rem aspernatur quam natus quis nihil quod, hic explicabo doloribus magnam neque, exercitationem eius sunt!',
-		github: '#',
-		linkedin: '#',
+		github: '',
+		linkedin: '',
 	},
 ];
 
@@ -71,12 +71,17 @@ const TeamSection = () => {
 										<p className='text-md text-sky-500'>{team.title}</p>
 
 										<div className='mt-3 flex gap-4 text-gray-400'>
-											<a href={team.github} target='_blank' rel='noreferrer'>
-												<FontAwesomeIcon icon={faGithub} className={cn('w-5 h-5 text-sky-300', 'hover:text-sky-600')} />
-											</a>
-											<a href={team.linkedin} target='_blank' rel='noreferrer'>
-												<FontAwesomeIcon icon={faLinkedin} className={cn('w-5 h-5 text-sky-300', 'hover:text-sky-600')} />
-											</a>
+											{team.github ? (
+												<a href={team.github} target='_blank' rel='noreferrer'>
+													<FontAwesomeIcon icon={faGithub} className={cn('w-5 h-5 text-sky-300', 'hover:text-sky-600')} />
+												</a>
+											) : null}
+
+											{team.linkedin ? (
+												<a href={team.linkedin} target='_blank' rel='noreferrer'>
+													<FontAwesomeIcon icon={faLinkedin} className={cn('w-5 h-5 text-sky-300', 'hover:text-sky-600')} />
+												</a>
+											) : null}
 										</div>
 									</div>
 								</li>
