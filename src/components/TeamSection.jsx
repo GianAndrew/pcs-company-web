@@ -57,7 +57,7 @@ const TeamSection = () => {
 				<div className='max-w-screen-xl mx-auto px-4 md:px-8'>
 					<div className='w-full flex flex-col justify-center items-center text-center'>
 						<h3 className='text-gray-900 text-3xl font-semibold sm:text-5xl'>Meet our talent team</h3>
-						<p className='max-w-xl text-gray-500 mt-3'>Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industrys standard dummy.</p>
+						<p className='max-w-xl text-gray-500 mt-3'>Get ready to meet the masterminds behind Pixel Cowboy!</p>
 					</div>
 					<div className='mt-20'>
 						<ul className='grid gap-8 lg:grid-cols-2'>
