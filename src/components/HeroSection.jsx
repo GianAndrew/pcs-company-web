@@ -10,7 +10,7 @@ import HatSvg from '../assets/home_hat_logo.svg';
 const HeroSection = () => {
 	return (
 		<>
-			<section className={cn('h-[100dvh]  flex flex-wrap w-full', 'lg:w-11/12 lg:mx-auto')} id='hero'>
+			<section id='hero' className={cn('h-[100dvh]  flex flex-wrap w-full', 'lg:w-11/12 lg:mx-auto')}>
 				<div className={cn('h-full w-full flex flex-col justify-center items-center', 'xl:w-1/2 xl:items-start')}>
 					<div className={cn('flex flex-col justify-center items-center relative', 'xl:hidden')}>
 						<img src={HatSvg} className='w-[25%] ' alt='HatImage' />

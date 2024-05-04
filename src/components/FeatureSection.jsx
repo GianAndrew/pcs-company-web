@@ -42,6 +42,7 @@ const FeatureSection = () => {
 	return (
 		<>
 			<section
+				id='feature'
 				className='min-h-[100dvh] flex flex-col justify-center bg-slate-900 text-white'
 				style={{ background: 'linear-gradient(143.6deg, rgba(23, 37, 84, 0.89) 20.79%, rgba(23, 37, 84, 0.89) 40.92%, rgba(23, 37, 84, 0.93) 70.35%)' }}
 			>
